@@ -32,7 +32,7 @@ class SongAdapter(var c:Context,
         return 0
     }
 
-    override fun getView(position: Int, convertView: View, parent : ViewGroup):View {
+    override fun getView(position: Int, convertView: View?, parent : ViewGroup):View {
         //map to song layout
         val songLay = songsInflater.inflate(R.layout.song, parent, false) as LinearLayout
         //get title and artist views

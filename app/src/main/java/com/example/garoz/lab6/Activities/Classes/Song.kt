@@ -1,7 +1,7 @@
 package com.example.garoz.lab6.Activities.Classes
 
 class Song(
-        private var id: Long,
+        var id: Long,
         var title: String,
         var artist: String
 ){
